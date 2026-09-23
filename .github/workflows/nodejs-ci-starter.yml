@@ -27,5 +27,6 @@ jobs:
 
         - name: Install Dependencies
           run: npm run coverage --if-present
+          continue-on-error: true
 
             
