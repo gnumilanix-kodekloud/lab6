@@ -10,7 +10,7 @@ env:
   MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 jobs:
     build:
-      runs-on: ubuntu-latest
+      runs-on: enterprise-runner
       steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
